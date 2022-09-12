@@ -1,6 +1,6 @@
 ## :pencil: Article *"Widening Access to Applied Machine Learning with TinyML"*
 
-This activity aims to summarize the article *"Widening Access to Applied Machine Learning with TinyML"*, written by Vijay Janapa Reddi et al.
+This activity aims to summarize the article *"Widening Access to Applied Machine Learning with TinyML"*, written by Vijay Janapa Reddi et al. The full article can be accessed ![here](https://arxiv.org/pdf/2106.04008.pdf)
 
 ## ![brasil](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png) Resumo completo
 
