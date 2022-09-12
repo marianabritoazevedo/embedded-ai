@@ -3,6 +3,8 @@ Este repositório tem como objetivo mostrar os projetos desenvolvidos durante a 
 
 :file_folder: Os projetos desenvolvidos ao longo da disciplina estão listados abaixo:
 
+- [Artigo *"Ampliando o acesso ao aprendizado de máquina com TinyML"*](https://github.com/marianabritoazevedo/embedded-ai/tree/main/Fundamentals_of_TinyML)
+
 # ![eua](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png) Embedded Artificial Intelligence
 This repository aims to show the projects developed during the Embedded Artificial Intelligence course (DCA0306), taken at the Federal University of Rio Grande do Norte (UFRN)
 
