@@ -10,7 +10,11 @@ This repository aims to show the projects developed during the Embedded Artifici
 
 :file_folder: The projects developed throughout the course are listed below:
 
+- [Article *"Widening Access to Applied Machine Learning with TinyML"*](https://github.com/marianabritoazevedo/embedded-ai/tree/main/Fundamentals_of_TinyML)
+
 # ![france](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/22px-Flag_of_France.svg.png) Intelligence Artificielle Embarquée
 Ce référentiel vise à montrer les projets développés à la matière du cours Intelligence Artificielle Embarquée (DCA0306), suivi à l'Université Fédérale du Rio Grande do Norte (UFRN)
 
-:file_folder: Les projets développés tout au long du cours sont listés ci-dessous
+:file_folder: Les projets développés tout au long du cours sont listés ci-dessous:
+
+- [Article *"Élargir l'accès à l'apprentissage automatique appliqué avec TinyML"*](https://github.com/marianabritoazevedo/embedded-ai/tree/main/Fundamentals_of_TinyML)
