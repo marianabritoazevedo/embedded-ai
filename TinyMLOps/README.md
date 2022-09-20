@@ -14,7 +14,7 @@ This activity aims to summarize the article *"TinyMLOps: Operational Challenges 
 <p align="justify">Outro ponto muito importante ainda em relação aos desafios da implementação de ML em borda é a questão da propriedade intelectual do modelo. Há pessoas que tentam roubar, direta ou indiretamente modelos ML, e essa questão de segurança precisa ser bem avaliada. Já existem algumas técnicas que tentam proteger o modelo, como técnicas de criptografia, uso de ambientes de processamento seguro ou até a detecção de padrões em consultas roubadas, e também técnicas que não protegem diretamente o modelo, mas são úteis para comprovar fraude, que seria a utilização de marcas d’água, por exemplo.</p>
 <p align="justify">Em suma, percebe-se que são diversas as dificuldades que ainda precisam ser enfrentadas na implementação de ML em borda, porém, já existem diversas sugestões de soluções que podem ser implementadas em um contexto de TinyMLOps.</p>
 
-# ![eua](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png) Full summary
+## ![eua](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png) Full summary
 <p With the growth of Artificial Intelligence in recent years, a new concept emerged that can be considered a new frontier in this field, edge AI. This concept refers to the processing of Artificial Intelligence algorithms no longer in the cloud, but in the very devices that are used by users. This means that all data is stored, processed and analyzed directly on these devices.
 </p>
 
