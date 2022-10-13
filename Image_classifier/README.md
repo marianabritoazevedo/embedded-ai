@@ -10,3 +10,7 @@ For this project, it was also used the tool named Weights & Biases (also known a
 ![image info](./images/img-modelo-com-fundo.png)
 
 In general, for each stage of the data pipeline it was created a notebook in Google Colaboratory, containing five stages: `fetch data`, `preprocessing`, `data segregation`, `train`, `test`. It is important to know that the `fetch data` stage it was executed just once, because the same dataset will be used for the three ML models that will be implemented. Also, in the last ML model (CNN), two more artifacts were generated: `validation_x` and `validation_y`. 
+
+## :chart_with_upwards_trend: Results
+
+Initially, those three ML models were executed to see the results as accuracy and confusion matrix of the models. However, the first results were not really good, speacially for the `MLPClassifier`, so, it was used a technique named `hyperparameter tuning`. It consists of find the best hyperparameter values for a ML algorithm applying different combinations of hyperparameters that maximizes the model performance and miminizes a predefined loss function to produce better results with fewer errors.
