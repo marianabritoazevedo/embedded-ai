@@ -9,4 +9,4 @@ For this project, it was also used the tool named Weights & Biases (also known a
 
 ![image info](./images/img-modelo-com-fundo.png)
 
-In general, for each stage of the data pipeline it was created a notebook in Google Colaboratory, containing five stages: ``
+In general, for each stage of the data pipeline it was created a notebook in Google Colaboratory, containing five stages: `fetch data`, `preprocessing`, `data segregation`, `train`, `test`. It is important to know that the `fetch data` stage it was executed just once, because the same dataset will be used for the three ML models that will be implemented. Also, in the last ML model (CNN), two more artifacts were generated: `validation_x` and `validation_y`. 
