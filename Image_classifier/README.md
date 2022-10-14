@@ -23,3 +23,7 @@ MLPClassifier (without sweep) | 0.537    | 0.572     | 0.537  | 0.516
 MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
 CNN (without sweep)           |          |           |        |
 CNN (with sweep)              |          |           |        |
+
+## :computer: How to run this project
+
+1- Create an account at [Wandb site](https://wandb.ai/)
