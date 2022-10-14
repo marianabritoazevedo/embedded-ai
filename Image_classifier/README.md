@@ -19,7 +19,7 @@ The following image shows the parameters and architetures used for each ML model
 
 ## :chart_with_upwards_trend: Results
 
-Initially, those three ML models were executed to see the results as accuracy and confusion matrix of the models. However, the first results were not really good, speacially for the `MLPClassifier`, so, it was used a technique named `hyperparameter tuning`. It consists of find the best hyperparameter values for a ML algorithm applying different combinations of hyperparameters that maximizes the model performance and miminizes a predefined loss function to produce better results with fewer errors.
+Initially, those three ML models were executed to see the results as accuracy and confusion matrix of the models. However, the first results were not really good, speacially for the `MLPClassifier`, so, it was used a technique named `hyperparameter tuning`, using sweep from Wandb. It consists of find the best hyperparameter values for a ML algorithm applying different combinations of hyperparameters that maximizes the model performance and miminizes a predefined loss function to produce better results with fewer errors.
 
 In the table below, we can see the principal metrics of each model:
 Model                         |Accuracy|Precision|Recall|F1-Score
