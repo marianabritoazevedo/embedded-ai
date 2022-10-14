@@ -24,6 +24,10 @@ MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
 CNN (without sweep)           |          |           |        |
 CNN (with sweep)              |          |           |        |
 
+## :leaves: Environmental considerations
+
+Considering the entire context of ecological awareness and environmental preservation that we live today, a library named `codecarbon` was used to measure the amount of energy spent and the amount of CO² released for the training of a neural network. Since the CNN is the neural network with the highest computational cost, the amount of energy and CO² were measured just for your training, with and without hyperparameter tuning.
+
 ## :computer: How to run this project
 
 1- Create an account at [Wandb site](https://wandb.ai/).
