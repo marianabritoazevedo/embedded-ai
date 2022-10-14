@@ -27,8 +27,14 @@ CNN (with sweep)              |          |           |        |
 ## :computer: How to run this project
 
 1- Create an account at [Wandb site](https://wandb.ai/).
+
 2- Clone this repository with the following command:
 ```
 git clone https://github.com/marianabritoazevedo/embedded-ai.git
 ```
 3- Put all the codes inside the folder `Image_classifier` at [Google Colaboratory](https://colab.research.google.com/).
+
+4- Inside every code, change the name `marianabritoazevedo` for the name of your user at Wandb.
+
+5- Run the projects inside the folder `KNN_classifier` in the following order:
+   - fetch data >> preprocessing >> data_segregation >> train >> test
