@@ -36,5 +36,11 @@ git clone https://github.com/marianabritoazevedo/embedded-ai.git
 
 4- Inside every code, change the name `marianabritoazevedo` for the name of your user at Wandb.
 
-5- Run the projects inside the folder `KNN_classifier` in the following order:
+5- Run the files inside the folder `Image_classifier/KNN_classifier` in the following order:
    - fetch data >> preprocessing >> data_segregation >> train >> test
+
+6- Run the files inside the folder `Image_classifier/MLP_classifier` in the following order:
+   - preprocessing >> data_segregation >> train >> test
+
+7- Run the files inside the folder `Image_classifier/CNN_classifier` in the following order:
+   - preprocessing >> data_segregation >> train >> test
