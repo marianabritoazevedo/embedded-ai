@@ -22,7 +22,7 @@ KNN                           | 0.469    | 0.542     | 0.469  | 0.474
 MLPClassifier (without sweep) | 0.537    | 0.572     | 0.537  | 0.516
 MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
 CNN (without sweep)           |          |           |        |
-CNN (with sweep)              |          |           |        |
+CNN (with sweep)              | 0.680    |  0.688    | 0.680  | 0.683
 
 ## :leaves: Environmental considerations
 
