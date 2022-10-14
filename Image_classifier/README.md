@@ -20,6 +20,6 @@ Model                         |Accuracy|Precision|Recall|F1-Score
 ------------------------------|:--------:|:---------:|:------:|:--------:
 KNN                           | 0.469    | 0.542     | 0.469  | 0.474
 MLPClassifier (without sweep) |          |           |        |
-MLPClassifier (with sweep)    |          |           |        |
+MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
 CNN (without sweep)           |          |           |        |
 CNN (with sweep)              |          |           |        |
