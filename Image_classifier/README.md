@@ -26,4 +26,9 @@ CNN (with sweep)              |          |           |        |
 
 ## :computer: How to run this project
 
-1- Create an account at [Wandb site](https://wandb.ai/)
+1- Create an account at [Wandb site](https://wandb.ai/).
+2- Clone this repository with the following command:
+```
+git clone https://github.com/marianabritoazevedo/embedded-ai.git
+```
+3- Put all the codes inside the folder `Image_classifier` at [Google Colaboratory](https://colab.research.google.com/).
