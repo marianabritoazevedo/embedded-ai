@@ -34,7 +34,10 @@ git clone https://github.com/marianabritoazevedo/embedded-ai.git
 ```
 3- Put all the codes inside the folder `Image_classifier` at [Google Colaboratory](https://colab.research.google.com/).
 
-4- Inside every code, change the name `marianabritoazevedo` for the name of your user at Wandb.
+4- Inside every code, change the name `marianabritoazevedo` for the name of your user at Wandb. For example:
+```
+run = wandb.init(entity="your_user_name",project=args["project_name"], job_type="data_segregation")
+```
 
 5- Run the files inside the folder `Image_classifier/KNN_classifier` in the following order:
    - fetch data >> preprocessing >> data_segregation >> train >> test
