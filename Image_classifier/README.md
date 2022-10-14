@@ -21,8 +21,8 @@ Model                         |Accuracy|Precision|Recall|F1-Score
 KNN                           | 0.469    | 0.542     | 0.469  | 0.474
 MLPClassifier (without sweep) | 0.537    | 0.572     | 0.537  | 0.516
 MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
-CNN (without sweep)           |          |           |        |
-CNN (with sweep)              | 0.680    |  0.688    | 0.680  | 0.683
+CNN (without sweep)           | 0.669    | 0.668     | 0.669  | 0.664
+CNN (with sweep)              | 0.680    | 0.688     | 0.680  | 0.683
 
 ## :leaves: Environmental considerations
 
