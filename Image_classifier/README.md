@@ -34,6 +34,14 @@ CNN (with sweep)              | 0.680    | 0.688     | 0.680  | 0.683
 
 Considering the entire context of ecological awareness and environmental preservation that we live today, a library named `codecarbon` was used to measure the amount of energy spent and the amount of CO² released for the training of a neural network. Since the CNN is the neural network with the highest computational cost, the amount of energy and CO² were measured just for your training, with and without hyperparameter tuning.
 
+#### Running without sweep (one CNN model)
+- Energy consumed: 0.00027 kWh
+- CO² emission: 0.00043 kg
+
+#### Running with sweep (50 CNN models)
+- Energy consumed: 0.028 kWh
+- CO² emission: 0.045 kg
+
 ## :computer: How to run this project
 
 1- Create an account at [Wandb site](https://wandb.ai/).
