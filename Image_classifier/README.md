@@ -17,9 +17,9 @@ Initially, those three ML models were executed to see the results as accuracy an
 
 In the table below, we can see the principal metrics of each model:
 Model                         |Accuracy|Precision|Recall|F1-Score
-------------------------------|--------|---------|------|--------
-KNN                           | 0.469  | 0.542   | 0.469| 0.474
-MLPClassifier (without sweep) |        |         |      |
-MLPClassifier (with sweep)    |        |         |      |
-CNN (without sweep)           |        |         |      |
-CNN (with sweep)              |        |         |      |
+------------------------------|:--------:|:---------:|:------:|:--------:
+KNN                           | 0.469    | 0.542     | 0.469  | 0.474
+MLPClassifier (without sweep) |          |           |        |
+MLPClassifier (with sweep)    |          |           |        |
+CNN (without sweep)           |          |           |        |
+CNN (with sweep)              |          |           |        |
