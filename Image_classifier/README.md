@@ -30,6 +30,10 @@ MLPClassifier (with sweep)    | 0.557    | 0.575     | 0.557  | 0.551
 CNN (without sweep)           | 0.669    | 0.668     | 0.669  | 0.664
 CNN (with sweep)              | 0.680    | 0.688     | 0.680  | 0.683
 
+In the image below, we can see visualy the hyperparameter turing implemented with sweep at Wandb for the CNN, were tested 50 different configurations for this neural network using sweep.
+
+![image info](./images/img-sweep.png)
+
 ## :leaves: Environmental considerations
 
 Considering the entire context of ecological awareness and environmental preservation that we live today, a library named `codecarbon` was used to measure the amount of energy spent and the amount of CO² released for the training of a neural network. Since the CNN is the neural network with the highest computational cost, the amount of energy and CO² were measured just for your training, with and without hyperparameter tuning.
