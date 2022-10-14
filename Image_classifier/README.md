@@ -51,3 +51,6 @@ run = wandb.init(entity="your_user_name",project=args["project_name"], job_type=
 
 7- Run the files inside the folder `Image_classifier/CNN_classifier` in the following order:
    - preprocessing >> data_segregation >> train >> test
+
+## :books: References
+- Ivanovitch's repository for embedded artificial intelligence repository ([here](https://github.com/ivanovitchm/embedded.ai));
