@@ -27,6 +27,19 @@ The best configuration can be seen in the image below, which has __4__ convoluti
 
 ![image info](./images/lenet-modelo.png)
 
-:chart_with_upwards_trend: Metrics
+### :chart_with_upwards_trend: Metrics
 
 The table below shows the metrics obtained in all 10 different configurations tested.
+
+Model                         |Accuracy|Precision|Recall|F1-Score
+------------------------------|:--------:|:---------:|:------:|:--------:
+earnest-sweep-9               | 0.9882   | 0.9882    | 0.9882 | 0.9882
+sandy-sweep-3                 | 0.9864   | 0.9864    | 0.9864 | 0.9864 
+faithful-sweep-6              | 0.9761   | 0.9761    | 0.9761 | 0.9761 
+worldly-sweep-7               | 0.961    | 0.9611    | 0.961  | 0.961
+denim-sweep-2                 | 0.9481   | 0.9481    | 0.9481 | 0.948
+vocal-sweep-10                | 0.9374   | 0.9373    | 0.9374 | 0.9373
+usual-sweep-1                 | 0.9119   | 0.9123    | 0.9119 | 0.9119
+wild-sweep-8                  | 0.8667   | 0.867     | 0.8667 | 0.8663
+summer-sweep-4                | 0.8284   | 0.8277    | 0.8284 | 0.8254
+legendary-sweep-5             | 0.4834   | 0.4557    | 0.4834 | 0.433
