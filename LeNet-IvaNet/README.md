@@ -29,7 +29,7 @@ The best configuration can be seen in the image below, which has __4__ convoluti
 
 ### :chart_with_upwards_trend: Metrics
 
-The table below shows the metrics obtained in all 10 different configurations tested.
+The table below shows the metrics obtained in all 10 different configurations tested. We can see that only one configuration obtained bad results, but the other 9 configurations reached an accuracy over 80%.
 
 Model                         |Accuracy|Precision|Recall|F1-Score
 ------------------------------|:--------:|:---------:|:------:|:--------:
@@ -43,3 +43,7 @@ usual-sweep-1                 | 0.9119   | 0.9123    | 0.9119 | 0.9119
 wild-sweep-8                  | 0.8667   | 0.867     | 0.8667 | 0.8663
 summer-sweep-4                | 0.8284   | 0.8277    | 0.8284 | 0.8254
 legendary-sweep-5             | 0.4834   | 0.4557    | 0.4834 | 0.433
+
+The image below shows the results reached according to the parameters of each sweep.
+
+![image info](./images/sweep-lenet.png)
