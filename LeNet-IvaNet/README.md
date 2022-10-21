@@ -15,4 +15,8 @@ The configurations of the sweep to make the hyperparameter tuning for the CNN Le
 *  `pooling`: the type of technique used in pooling layer. The possibilities are: 0 (max pooling) or 1 (average pooling);
 *  `qtd_filters`: the number of filters used at the convolutional layers. The possibilities are: 4, 8, 16 or 32;
 *  `filter_size`: the size of the filters used at the convolutional layers. The possibilities are: 2 (2x2), 3 (3x3), 4 (4x4) or 5 (5x5);
-*  `learn_rate`
+*  `learn_rate`: the step size at each iteration while moving toward a minimum of a loss function. The possibilities are: 0.01 or 0.001;
+*  `epoch`: the number of epochs which the CNN will be trained. The possibilities are: 20 or 40;
+*  `batch_size`: the size of the batch. The possibilities are: 32 or 64.
+
+### Best model
