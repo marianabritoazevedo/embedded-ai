@@ -25,4 +25,4 @@ The parameters for the sweep were chosen randomly, and there were tested 10 diff
 
 The best configuration can be seen in the image below, which has __4__ convolutional layers with __16__ filters __5x5__, the pooling layer using __AveragePooling__, and it has the number __0.01__ as learning rate and __32__ as the dize of the batch. This configuration achieved an accuracy of 98.82%.
 
-![image info](./images/modelo-lenet.png)
+![image info](./images/lenet-modelo.png)
