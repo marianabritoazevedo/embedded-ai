@@ -119,3 +119,20 @@ Model                         |Accuracy|Precision|Recall|F1-Score
 The image below shows the results reached according to the parameters of each sweep.
 
 ![image info](./images/sweep-data-augumentation.png)
+
+The image below shows the results reached according to the parameters of each sweep.
+
+![image info](./images/sweep-data-augumentation.png)
+
+Next, we can observe, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep.
+
+![image info](./images/acc_loss.png)
+Graph of accuracy and loss 
+
+![image info](./images/classification_report.png)
+Classification Report
+
+![image info](./images/confusion_matrix.png)
+Confusion Matrix
+
+As observed in the confusion matrix, the model was more confused predicting the number 7 when it was actually the number 2.
