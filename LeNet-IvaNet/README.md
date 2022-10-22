@@ -8,11 +8,7 @@ With that in mind, we performed hyperparameter tuning using [Weights and Biases]
 * __Model 2__: Another sweep was performed using data augmentation by varying parameters such as zoom, shear, among others, and also testing techniques such as dropout, batchnormalization, etc.
 * __Model 3__: to write
 
-It is important to highlight that this work was carried out in a group, the first part being responsible for [Mariana Brito](https://github.com/marianabritoazevedo), the second part for 
-
-[Morsinaldo Medeiros](https://github.com/Morsinaldo) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/Morsinaldo/embedded_artificial_intelligence/tree/main/projects/lenet5) and the third part for
-
-[Thaís Araújo](https://github.com/thaisaraujo2000?tab=repositories) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/thaisaraujo2000/embedded_artificial_intelligence/tree/main/projects). (Ajeitar o link de Thaís quando ela fizer o push)
+It is important to highlight that this work was carried out in a group, the first part being responsible for [Mariana Brito](https://github.com/marianabritoazevedo), the second part for [Morsinaldo Medeiros](https://github.com/Morsinaldo) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/Morsinaldo/embedded_artificial_intelligence/tree/main/projects/lenet5) and the third part for [Thaís Araújo](https://github.com/thaisaraujo2000?tab=repositories) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/thaisaraujo2000/embedded_artificial_intelligence/tree/main/projects). (Ajeitar o link de Thaís quando ela fizer o push)
 
 ## Model 1: LeNet-5
 
