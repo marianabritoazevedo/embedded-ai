@@ -120,10 +120,6 @@ The image below shows the results reached according to the parameters of each sw
 
 ![image info](./images/sweep-data-augumentation.png)
 
-The image below shows the results reached according to the parameters of each sweep.
-
-![image info](./images/sweep-data-augumentation.png)
-
 Next, we can observe, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep.
 
 ![image info](./images/acc_loss.png)
