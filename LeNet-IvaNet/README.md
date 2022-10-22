@@ -1,6 +1,12 @@
 ## Hyperparameter Tuning with sweep
 
-Adicionar texto ainda
+One of the first and best known convolutional neural networks is LeNet-5, described by Yann LeCun, et al. in their 1998 paper titled [Gradient-Based Learning Applied to Document Recognition](https://ieeexplore.ieee.org/document/726791). The system was developed for use in a handwritten character recognition problem and demonstrated on the MNIST standard dataset, achieving approximately 99.2% classification accuracy (or a 0.8% error rate). The network was then described as the central technique in a wider system referred to as Graph Transformer Networks.
+
+With that in mind, we performed hyperparameter tuning using [Weights and Biases](https://wandb.ai) for three models based on LeNet5:
+
+* __Model 1__: From the architecture of the original paper, a sweep was performed with other activation functions, more convolutional layers, other filter sizes, batch sizes etc.
+* __Model 2__: Another sweep was performed using data augmentation by varying parameters such as zoom, shear, among others, and also testing techniques such as dropout, batchnormalization, etc.
+* __Model 3__: to write
 
 ## Model 1: LeNet-5
 
