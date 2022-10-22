@@ -12,9 +12,11 @@ It is important to highlight that this work was carried out in a group, the firs
 
 ## Model 1: LeNet-5
 
-This architecture of this Convolutional Neural Network (CNN) was described by Yann LeCun, et al. in their 1998 paper titled [Gradient-Based Learning Applied to Document Recognition](https://ieeexplore.ieee.org/document/726791) and it was one of the first successful applications of CNNs.
+In section II. B., the paper describes the network architeture as having seven layers with input grayscale images having the shape 32 x 32, the size of images in the MNIST dataset.
 
-In this first part of the project, the goal was make the hyperparameter tuning using the sweep from [Wandb](https://wandb.ai) and see which is the best configuration for LeNet-5
+The model proposes a pattern of a convolutional layer followed by an average pooling layer, referred to as a subsampling layer.
+
+This pattern is repeated two and a half times before the output feature maps are flattened and fed to some fully connected layers for interpretation and a final prediction. A picture of the network architecture is provided in the paper and reproduced below.
 
 ### :mag: Settings for hyperparameter tuning 
 
@@ -55,3 +57,65 @@ legendary-sweep-5             | 0.4834   | 0.4557    | 0.4834 | 0.433
 The image below shows the results reached according to the parameters of each sweep.
 
 ![image info](./images/sweep-lenet.png)
+
+## Model 2: Data Augmentation
+
+This method slightly changes the appearance of the training data before passing it to the network, thus causing the network to consistently see "new" training data points generated from the original data. This partially alleviates the need for us to collect more training data (although, in general, collecting more training data rarely hurts your algorithm).
+
+Data augmentation encompasses a wide range of techniques used to generate new training samples from the originals, applying random jitters and perturbations so that the class labels do not change.
+
+Our goal when applying data augmentation is to increase the generalizability of the model, as since our network is constantly seeing new and slightly modified versions of the input data points, it can learn more robust features.
+
+At the time of testing, we do not apply data augmentation and evaluate our trained network – in most cases you will see an increase in test accuracy, perhaps at the expense of a slight drop in training accuracy.
+
+You can read more data augmentation at this link: [Complete Guide to Data Augmentation for Computer Vision](https://towardsdatascience.com/complete-guide-to-data-augmentation-for-computer-vision-1abe4063ad07)
+
+### :mag: Settings for hyperparameter tuning 
+
+The configurations of the sweep to make the hyperparameter tuning for the CNN LeNet-5 are described below:
+*  `conv_layer`: number of convolutional layers. The possibilities are: 1 or 2;
+*  `batch_norm`: batch normalization. The possibilities are: True or False. If it's true, we put a batch normalization layer, otherwise we don't put;
+*  `dropout`: some neurons are statistically deactivated during training. The possibilities are: 0.0, 0.25 or 0.5;
+*  `rotation`: rotation range of data augmentation. The possibilities are: 2 (2x2), 3 (3x3), 4 (4x4) or 5 (5x5);
+*  `learn_rate`: the step size at each iteration while moving toward a minimum of a loss function. The possibilities are: 0.001 or 0.005;
+*  `epoch`: the number of epochs which the CNN will be trained. The possibilities are: 15 or 30;
+*  `batch_size`: the size of the batch. The possibilities are: 32 or 64.
+* `width_shift`: The width shift range. The possibilities are: 0.1, 0.2 or 0.3.
+* `height_shift`: The height shift range. The possibilities are: 0.1, 0.2 or 0.3
+* `shear`: The shear range. The possibilities are: 0.1, 0.2 or 0.3
+* `zoom`: The zoom range. possibilities are: 0.1, 0.2 or 0.3
+
+For reproducible purposes, we set a seed using the following command:
+
+```python
+tf.random.set_seed(42)
+```
+
+### :trophy: Best configuration
+
+The parameters for the sweep were chosen randomly, and there were tested 10 different types of configuration for the LeNet-5.
+
+The best configuration can be seen in the image below, which has __2__ convolutional layers: one with __6__ filters __5x5__  and one with __16__ filters __5x5__. Next, we have the pooling layer using __MaxPooling__, and it has the number __0.001__ as the learning rate and __32__ as the batch value. In the end, we have a flat layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.31%.
+
+![image info](./images/data_augmentation.png)
+
+### :chart_with_upwards_trend: Metrics
+
+The table below shows the metrics obtained in all 10 different configurations tested. We can see that al configurations reached an accuracy over 96 over test dataset%.
+
+Model                         |Accuracy|Precision|Recall|F1-Score
+------------------------------|:--------:|:---------:|:------:|:--------:
+[bright-sweep-9](https://wandb.ai/morsinaldo/lenet-5/runs/pz2p5om2?workspace=user-morsinaldo)                | 0.9931   | 0.9931    | 0.9931 | 0.9931
+[lunar-sweep-2](https://wandb.ai/morsinaldo/lenet-5/runs/qznrk35g?workspace=user-morsinaldo)                 | 0.9868   | 0.9869    | 0.9868 | 0.9868 
+[robust-sweep-6](https://wandb.ai/morsinaldo/lenet-5/runs/jn4i8qas?workspace=user-morsinaldo)                | 0.9866   | 0.9867    | 0.9866 | 0.9866 
+[swift-sweep-8](https://wandb.ai/morsinaldo/lenet-5/runs/f8cggox8?workspace=user-morsinaldo)                 | 0.9832   | 0.9833    | 0.9832 | 0.9832
+[rosy-sweep-7](https://wandb.ai/morsinaldo/lenet-5/runs/vaxsxe36?workspace=user-morsinaldo)                  | 0.9827   | 0.9828    | 0.9827 | 0.9827
+[proud-sweep-1](https://wandb.ai/morsinaldo/lenet-5/runs/s5j7jlue?workspace=user-morsinaldo)                 | 0.9825   | 0.9826    | 0.9825 | 0.9825
+[vocal-sweep-4](https://wandb.ai/morsinaldo/lenet-5/runs/3z3uud5o?workspace=user-morsinaldo)                 | 0.9804   | 0.9806    | 0.9804 | 0.9804
+[dandy-sweep-10](https://wandb.ai/morsinaldo/lenet-5/runs/exzd90g6?workspace=user-morsinaldo)                | 0.9785   | 0.9786    | 0.9785 | 0.9785
+[leafy-sweep-3](https://wandb.ai/morsinaldo/lenet-5/runs/z8089w2t?workspace=user-morsinaldo)                 | 0.9658   | 0.9661    | 0.9658 | 0.9658
+[earthy-sweep-5](https://wandb.ai/morsinaldo/lenet-5/runs/2dkykiqt?workspace=user-morsinaldo)                | 0.9652   | 0.9661    | 0.9652 | 0.9653
+
+The image below shows the results reached according to the parameters of each sweep.
+
+![image info](./images/sweep-data-augumentation.png)
