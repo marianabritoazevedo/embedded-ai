@@ -61,6 +61,8 @@ The image below shows the results reached according to the parameters of each sw
 Next, we can show other metrics, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep. 
 
 <img src="./images/loss-accuracy-lenet.png" width="500px"/>
+<img src="./images/classification-report-lenet.png" width="500px"/>
+<img src="./images/confusion-matrix-lenet.png" width="500px"/>
 
 ## Model 2: Data Augmentation
 
