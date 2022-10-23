@@ -58,6 +58,8 @@ The image below shows the results reached according to the parameters of each sw
 
 ![image info](./images/sweep-lenet.png)
 
+Next, we can show other metrics, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep. 
+
 ## Model 2: Data Augmentation
 
 This method slightly changes the appearance of the training data before passing it to the network, thus causing the network to consistently see "new" training data points generated from the original data. This partially alleviates the need for us to collect more training data (although, in general, collecting more training data rarely hurts your algorithm).
