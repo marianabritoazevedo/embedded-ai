@@ -60,6 +60,18 @@ The image below shows the results reached according to the parameters of each sw
 
 Next, we can show other metrics, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep. 
 
+Graph of loss and accuracy
+
+<img src="./images/loss-accuracy-lenet.png" width="500px"/>
+
+Classification report
+
+<img src="./images/classification-report-lenet.png" width="500px"/>
+
+Confusion matrix
+
+<img src="./images/confusion-matrix-lenet.png" width="500px"/>
+
 ## Model 2: Data Augmentation
 
 This method slightly changes the appearance of the training data before passing it to the network, thus causing the network to consistently see "new" training data points generated from the original data. This partially alleviates the need for us to collect more training data (although, in general, collecting more training data rarely hurts your algorithm).
@@ -124,13 +136,16 @@ The image below shows the results reached according to the parameters of each sw
 
 Next, we can observe, respectively, the graph of accuracy and loss, the output of the classification report and the confusion matrix for the best model obtained in the sweep.
 
-![image info](./images/acc_loss.png)
+<img src="./images/acc_loss.png" width="500px"/>
+
 Graph of accuracy and loss 
 
-![image info](./images/classification_report.png)
+<img src="./images/classification_report.png" width="500px"/>
+
 Classification Report
 
-![image info](./images/confusion_matrix.png)
+<img src="./images/confusion_matrix.png" width="500px"/>
+
 Confusion Matrix
 
 As observed in the confusion matrix, the model was more confused predicting the number 7 when it was actually the number 2.
