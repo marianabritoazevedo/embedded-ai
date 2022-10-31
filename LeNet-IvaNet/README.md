@@ -183,7 +183,7 @@ The parameters for the sweep were chosen randomly, and there were tested 10 diff
 
 The best configuration can be seen in the image below, which has __4__ convolutional layers, we have the pooling layer using __AveragePooling__, __0.001__ as the learning rate, __64__ as the batch size value. Furthermore, all dropout layers were 0.25. In the end, it has a flatten layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.47%.
 
-![image info](./img/kakashinet_background.png)
+![image info](./images/kakashinet_background.png)
 
 ### :chart_with_upwards_trend: Metrics
 
