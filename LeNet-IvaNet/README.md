@@ -38,7 +38,7 @@ The parameters for the sweep were chosen randomly, and there were tested 10 diff
 
 The best configuration can be seen in the image below, which has __4__ convolutional layers with __16__ filters __5x5__, the pooling layer using __AveragePooling__, and it has the number __0.01__ as learning rate and __32__ as the size of the batch. This configuration achieved an accuracy of 98.82%.
 
-![image info](./img/lenet-modelo.png)
+![image info](./images/lenet-modelo.png)
 
 ### :chart_with_upwards_trend: Metrics
 
@@ -59,23 +59,23 @@ Run                           |Accuracy|Precision|Recall|F1-Score
 
 The image below shows the results reached according to the parameters of each sweep.
 
-![image info](./img/sweep-lenet.png)
+![image info](./images/sweep-lenet.png)
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
 <p align="center" style="text-align:center">
-    <img src="./img/loss-accuracy-lenet.png" width="500px"/>
+    <img src="./images/loss-accuracy-lenet.png" width="500px"/>
     <p align="center">Accuracy and Loss Graph</p> 
 </p align="center">
 
 
 <p align="center" style="text-align:center">
-    <img src="./img/classification-report-lenet.png" width="500px"/>
+    <img src="./images/classification-report-lenet.png" width="500px"/>
     <p align="center">Classification Report</p>
 </p align="center">
 
 <p align="center" style="text-align:center">
-    <img src="./img/confusion-matrix-lenet.png" width="500px"/>
+    <img src="./images/confusion-matrix-lenet.png" width="500px"/>
     <p align="center">Confusion matrix</p>
 </p align="center">
 
@@ -121,7 +121,7 @@ The parameters for the sweep were chosen randomly, and there were tested 10 diff
 
 The best configuration can be seen in the image below, which has __2__ convolutional layers: one with __6__ filters __5x5__  and one with __16__ filters __5x5__. Next, we have the pooling layer using __MaxPooling__, and it has the number __0.001__ as the learning rate and __32__ as the batch value. In the end, we have a flat layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.31%.
 
-![image info](./img/data_augmentation.png)
+![image info](./images/data_augmentation.png)
 
 ### :chart_with_upwards_trend: Metrics
 
@@ -142,24 +142,24 @@ Run                         |Accuracy|Precision|Recall|F1-Score
 
 The image below shows the results reached according to the parameters of each sweep.
 
-![image info](./img/sweep-data-augmentation.png)
+![image info](./images/sweep-data-augmentation.png)
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/acc_loss.png'>
+    <img width='500' src='./images/acc_loss.png'>
     <p align="center">Accuracy and Loss Graph</p> 
 </p align="center">
 
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/classification_report.png'>
+    <img width='500' src='./images/classification_report.png'>
     <p align="center">Classification Report</p>
 </p align="center">
 
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/confusion_matrix.png'>
+    <img width='500' src='./images/confusion_matrix.png'>
     <p align="center">Confusion Matrix</p>
 </p align="center">
 
@@ -204,24 +204,24 @@ Run                           |Accuracy  |Precision  |Recall  |F1-Score
 
 The image below shows the results reached according to the parameters of each sweep.
 
-![image info](./img/kakashinet_sweep.png)
+![image info](./images/kakashinet_sweep.png)
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/kakashinet_loss_accuracy.png'>
+    <img width='500' src='./images/kakashinet_loss_accuracy.png'>
     <p align="center">Accuracy and Loss Graph</p>
 </p align="center">
 
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/kakashinet_classification_report.png'>
+    <img width='500' src='./images/kakashinet_classification_report.png'>
     <p align="center">Classification Report</p>
 </p align="center">
 
 
 <p align="center" style="text-align:center">
-    <img width='500' src='./img/kakashinet_confusion_matrix.png'>
+    <img width='500' src='./images/kakashinet_confusion_matrix.png'>
     <p align="center">Confusion Matrix</p>
 </p align="center">
 
