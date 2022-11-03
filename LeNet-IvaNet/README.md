@@ -121,7 +121,7 @@ The parameters for the sweep were chosen randomly, and there were tested 10 diff
 
 The best configuration can be seen in the image below, which has __2__ convolutional layers: one with __6__ filters __5x5__  and one with __16__ filters __5x5__. Next, we have the pooling layer using __MaxPooling__, and it has the number __0.001__ as the learning rate and __32__ as the batch value. In the end, we have a flat layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.31%.
 
-![image info](./images/data_augmentation.png)
+![image info](./images/data_augmentation_ok.png)
 
 ### :chart_with_upwards_trend: Metrics
 
