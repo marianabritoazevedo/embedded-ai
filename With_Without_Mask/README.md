@@ -31,17 +31,22 @@ Tools >> Manage libraries
 Sketch >> Include library >> Add .zip library
 ```
 
-5- Connect your Arduino Nano 33 BLE sense in the Arduino IDE. 
+5- Choose the file with the project
+```
+File >> Examples >> face_mask_detection_2_inferencing >> nano_ble33_sense >> nano_ble33_sense_camera
+```
+
+6- Connect your Arduino Nano 33 BLE sense in the Arduino IDE. 
 ```
 Tools >> Board >> Arduino Mbed OS Nano Boads >> Arduino Nano 22 BLE
 ```
 
-6- Connect the port
+7- Connect the port
 ```
 Tools >> Port >> COM4 (this may change)
 ```
 
-7- Run the project
+8- Run the project
 ```
 Verify >> Upload
 ```
