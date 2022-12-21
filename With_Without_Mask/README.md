@@ -23,6 +23,8 @@ To install the libraries, you can follow these steps:
 Tools >> Manage libraries
 ```
 
+:heavy_exclamation_mark: Attention: to install `Arduino_TensorFlowLite`, it is necessary to use this [repository](https://github.com/tensorflow/tflite-micro-arduino-examples)
+
 4- Take the file `ei-face_mask_detection_2-arduino-1.0.5.zip` in the folder `library_zip` and add as a library in Arduino IDE. This can be done by following the sequence:
 
 ```
@@ -32,4 +34,14 @@ Sketch >> Include library >> Add .zip library
 5- Connect your Arduino Nano 33 BLE sense in the Arduino IDE. 
 ```
 Tools >> Board >> Arduino Mbed OS Nano Boads >> Arduino Nano 22 BLE
+```
+
+6- Connect the port
+```
+Tools >> Port >> COM4 (this may change)
+```
+
+7- Run the project
+```
+Verify >> Upload
 ```
